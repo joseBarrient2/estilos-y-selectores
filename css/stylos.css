@@ -27,7 +27,7 @@ article + div{color: red;}
   color: #fff;
 }
 
-.box .items ~ div{
+.box .items ~ .i1{
   background: dodgerblue;
   color: #fff;
 }
