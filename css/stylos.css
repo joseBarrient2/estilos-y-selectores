@@ -1,0 +1,39 @@
+.texto{font-family:Arial, Helvetica, sans-serif}
+h2 + p{margin: 0;}
+.size{font-size: 25px;}
+.line-h{line-height: 35px;display: block; width: 500px;}
+.align{text-align: justify; width: 400px;display: block;}
+.e{display: block;padding:15px 0;}
+.peso span{font-weight: 900;}
+.deco{text-decoration: overline;}
+
+div{color: crimson;}
+
+.clase1{color: green;}
+
+#identificador{ color:orange;}
+
+article > span {background-color: DodgerBlue;}
+
+article + div{color: red;}
+
+.conten .green span{
+   color: green;
+   font-size: 19px;
+}
+
+.box .item + div{
+  background: dodgerblue;
+  color: #fff;
+}
+
+.box .items ~ div{
+  background: dodgerblue;
+  color: #fff;
+}
+
+.li1,.li3,.li5{
+  background-color: crimson;
+  color: #fff;
+  list-style: none;
+}

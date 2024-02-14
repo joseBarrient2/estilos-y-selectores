@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos de texto</title>
+    <link rel="stylesheet" href="./css/stylos.css">
+</head>
+<body>
+    <h2>ESTILOS DE TEXTO</h2>
+    <h2>font-family</h2>
+    <p>Se usa para agregar un tipo de fuente al texto</p>
+    <p class="texto e">Se usa para agregar un tipo de fuente al texto</p>
+
+    <h2>font-size</h2>
+    <p>Se usa para darle un tamaño especifico a determinado texto.</p>
+    <p class="size e">Se usa para agregar un tamaño de fuente</p>
+
+    <h2>line-height</h2>
+    <p>A un parrafo se le puede agregar una separación o espaciado entre filas</p>
+    <p class="line-h e">Se usa para agregar un tipo de fuente al texto Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil temporibus mollitia fugit distinctio maiores soluta nam, nesciunt saepe nulla tempore ea alias labore, aliquam eius amet et. Aliquam, placeat deleniti?</p>
+
+    <h2>text-align</h2>
+    <p>esta propiedad se usa para alinear el texto al lado derecho, izquerdo, centrado o justificado</p>
+    <p class="align e">Se usa para agregar un tipo de fuente al texto Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil temporibus mollitia fugit distinctio maiores soluta nam, nesciunt saepe nulla tempore ea alias labore, aliquam eius amet et. Aliquam, placeat deleniti?</p>
+
+    <h2>font-weight</h2>
+    <p>se usa para establece el peso de la fuente. Los pesos disponibles dependen del que esté configurado actualmente</p>
+    <p class="peso e">Agrega peso a <span>determinado texto</span></p>
+
+
+    <h2>text-decoration</h2>
+    <p>Esta propiedad establece la apariencia de las líneas decorativas en el texto</p>
+    <p class="deco e">Se usa para agregar un tipo de fuente al texto Lorem ipsum dolor sit, amet consectetur</p>
+
+    <h2>SELECTORES</h2>
+
+    <h2>1 - selector de etiqueta</h2>
+    <p>son los que permiten aplicar estilos a todas las etiquetas de un tipo, ejem:, a todos las parrafos, div, listas desordenadas y enlaces, etc</p>
+    <div class="selec e">Se aplicaron stilos a este div</div>
+    <p class="selec e">Piña soy un parrafo</p>
+
+
+    <h2>2 - selector de clase</h2>
+    <p>los selectores de clase buscan los elemento que tengan el atributo class. Este puede encadenar a varios elemento con el mismo nombre de clase</p>
+    <div class="a e">Se aplicaron estilos la clsae a</div>
+    <p class="b">soy clase b</p>
+
+
+    <h2>3 - selector de Id</h2>
+    <p>los selectores de id buscan los elemento que tengan el atributo id y que tenga el valor exacto que pide. Los elemento id son unicos, asi que no se pueden repetir.</p><br>
+    <div id="identificador e">Soy on ID unico</div>
+
+
+    <h2>4 - selector Descendencia</h2>
+    <p>Se puede combinar dos selectores tales que el selector combinado incluye sólo los elementos que coinciden con el segundo selector</p><br>
+    <section class="conten">
+        <div class="orange">item 1</div>
+        <div class="green">
+            <span>item 2</span>
+        </div>
+        <div class="red">item 3</div>
+    </section>
+    
+
+
+
+    <h2>5 - selector Hijo directo (>)</h2>
+    <p>Es un selector parecido al selector descendente, pero funciona de diferente modo. Se utiliza para seleccionar un elemento que es primer hijo de otro elemento</p>
+
+    <article>
+          <span>item 0</span>   
+          <div>
+            <span>item 1</span>
+          </div> 
+          <div>item 2</div> 
+    </article>
+
+
+    <h2>6 - selector Hermano siguiente o adyacente (+)</h2>
+    <p>Es un selector parecido al selector descendente, pero funciona de diferente. Se utiliza para seleccionar un elemento que esta al costado de otro elemento</p><br>
+
+    <section class="box">
+        <div class="item">Elemento item</div>
+        <div>Soy primer hemano de item</div>
+        <div class="item3">Soy el segundo hermano</div>
+    </section>
+
+
+    <h2>7 - selector Hermanos siguientes o adyacentes (~)</h2>
+    <p>Es un selector parecido al selector descendente, pero funciona de diferente. Se utiliza para seleccionar un elemento que esta al costado de otro elemento</p><br>
+
+    <section class="box">
+        <div class="items">Elemento item</div>
+        <div>Soy primer hemano de item</div>
+        <div class="items3">Soy el segundo hermano</div>
+        <div class="items4">Soy el tercer hermano</div>
+    </section>
+
+    <h2>8 - selector de anidamiento (,)</h2>
+    <p>Es selector nos ayuda a agrupar elementos que este relacionados entre si, sin importar el nivel de profundidad del elemento seleccionado</p><br>
+
+    <section class="box">
+        <li class="li1">ITEM 1</li>
+        <li class="li2">ITEM 2</li>
+        <li class="li3">ITEM 3</li>
+        <li class="li4">ITEM 4</li>
+        <li class="li5">ITEM 5</li>
+    </section>
+    
+</body>
+</html>
